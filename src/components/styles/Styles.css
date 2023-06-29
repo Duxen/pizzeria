@@ -1,0 +1,133 @@
+.brand-name {
+    font-weight: 800;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+.cart-total {
+    font-weight: 800;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+.header-content {
+    background-image: url('https://img.freepik.com/vector-premium/anuncios-banner-pizza-ilustracion-comida-estilo-grabado-madera-sobre-fondo-pizarra_281653-545.jpg?w=2000');
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+  }
+
+.logo {
+    font-size: 20px;
+    height: 25px;
+}
+
+.cart-icon {
+    font-size: 20px;
+    height: 25px;
+}
+
+.pizza-catalog {
+    overflow-y: auto;
+    border: 30px solid #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .pizza-card {
+    width: calc(25.25% - 20px); /* Para mostrar máximo tres tarjetas por fila */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pizza-card img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .pizza-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .ingredients {
+    margin-bottom: 10px;
+  }
+  
+  .ingredients li {
+    margin-bottom: 5px;
+  }
+  
+  .pizza-image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+
+  .pizza-detail {
+    display: flex;
+    align-items:center;
+  }
+
+  .pizza-description {
+    flex: 1 1 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .button-link {
+    display: inline-block;
+    background-color: #99e9f7;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration:solid;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .button-link:hover {
+    background-color: #12e312;
+  }
+
+  .carrito {
+    margin-bottom: 50px;
+  }
+
+  .button-pay {
+    display: inline-block;
+    background-color: #fd2f2f;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration:solid;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .button-pay:hover {
+    background-color: #12e312;
+  }
+
+  .button-home {
+    display: inline-block;
+    background-color: #99e9f7;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration:solid;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .button-home:hover {
+    background-color: #12e312;
+  }
